@@ -25,7 +25,7 @@ First step is read gef using stereopy package.
                     -im ${input_img}
 ```
 
-Then use the script provided by stereopy teams to aquire rds file.
+Then use the modified script provided by stereopy teams (https://github.com/STOmics/Stereopy/blob/main/docs/source/_static/h5ad2rds.R) to aquire rds file.
 ```
 ###Step2: convert h5ad to rds
 ./h5ad2rds.R --infile "${output}/${sample_name}/temp.h5ad" \
